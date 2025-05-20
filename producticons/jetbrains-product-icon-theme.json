@@ -1,0 +1,21 @@
+{
+    "fonts": [
+        {
+            "id": "jetbrains-product-icon-theme",
+            "src": [
+                {
+                    "path": "./jetbrains-product-icon-theme.woff",
+                    "format": "woff"
+                }
+            ],
+            "style": "normal",
+            "weight": "normal"
+        },
+    ],
+    "iconDefinitions": {
+        "explorer-view-icon": {
+            "fontCharacter": "\ue800",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+    },
+}
