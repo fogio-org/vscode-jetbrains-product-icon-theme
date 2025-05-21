@@ -4,8 +4,8 @@
             "id": "jetbrains-product-icon-theme",
             "src": [
                 {
-                    "path": "./jetbrains-product-icon-theme.woff",
-                    "format": "woff"
+                    "path": "./jetbrains-product-icon-theme.woff2",
+                    "format": "woff2"
                 }
             ],
             "style": "normal",
@@ -13,8 +13,32 @@
         },
     ],
     "iconDefinitions": {
+        "account": {
+            "fontCharacter": "\\7",
+            "fontId": "jetbrains-product-icon-theme"
+        },
         "explorer-view-icon": {
-            "fontCharacter": "\ue800",
+            "fontCharacter": "\\1",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "extensions": {
+            "fontCharacter": "\\2",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "files": {
+            "fontCharacter": "\\3",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "search": {
+            "fontCharacter": "\\4",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "settings-gear": {
+            "fontCharacter": "\\5",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "terminal": {
+            "fontCharacter": "\\6",
             "fontId": "jetbrains-product-icon-theme"
         },
     },
