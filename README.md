@@ -1,2 +1,22 @@
-# vscode-jetbrains-product-icon-theme
-JetBrains Product Icon Theme for VS Code
+# JetBrains New UI Product Icon Theme for VS Code
+
+The goal of the JetBrains New UI Product Icon Theme is to reduce visual clutter and give you more space for your code and thoughts.
+
+<p align="center">
+    <a href="https://marketplace.visualstudio.com/items?itemName=fogio.jetbrains-product-icon-theme"><img src="https://img.shields.io/visual-studio-marketplace/v/fogio.jetbrains-product-icon-theme?style=for-the-badge&colorA=555555&colorB=007ec6&label=VERSION" alt="Version"></a>&nbsp;
+    <a href="https://marketplace.visualstudio.com/items?itemName=fogio.jetbrains-product-icon-theme"><img src="https://img.shields.io/visual-studio-marketplace/r/fogio.jetbrains-product-icon-theme?style=for-the-badge&colorA=555555&colorB=007ec6&label=RATING" alt="Rating"></a>&nbsp;
+    <a href="https://marketplace.visualstudio.com/items?itemName=fogio.jetbrains-product-icon-theme"><img src="https://img.shields.io/visual-studio-marketplace/i/fogio.jetbrains-product-icon-theme?style=for-the-badge&colorA=555555&colorB=007ec6&label=Installs" alt="INSTALLS"></a>&nbsp;
+    <a href="https://marketplace.visualstudio.com/items?itemName=fogio.jetbrains-product-icon-theme"><img src="https://img.shields.io/visual-studio-marketplace/d/fogio.jetbrains-product-icon-theme?style=for-the-badge&colorA=555555&colorB=007ec6&label=Downloads" alt="DOWNLOADS"></a>
+</p>
+
+I hope this theme will be the one you enjoy working with day and night.
+
+## Preview
+
+...
+
+## Credits
+
+I express my deep gratitude to the JetBrains team for their work. Here are links to open resources used to create this theme:
+
+- JetBrains icons: <https://intellij-icons.jetbrains.design/>
