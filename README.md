@@ -13,7 +13,7 @@ I hope this theme will be the one you enjoy working with day and night.
 
 ## Preview
 
-...
+![Preview](https://raw.githubusercontent.com/fogio-org/vscode-jetbrains-product-icon-theme/refs/heads/master/assets/img/preview.png)
 
 ## Credits
 
