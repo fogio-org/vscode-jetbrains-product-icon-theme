@@ -1,5 +1,7 @@
 # JetBrains New UI Product Icon Theme for VS Code
 
+> **This is the preview version of the JetBrains New UI Product Icon Theme, used for early feedback and testing**
+
 The goal of the JetBrains New UI Product Icon Theme is to reduce visual clutter and give you more space for your code and thoughts.
 
 <p align="center">
