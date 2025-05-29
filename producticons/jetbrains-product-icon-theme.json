@@ -101,5 +101,13 @@
             "fontCharacter": "\\17",
             "fontId": "jetbrains-product-icon-theme"
         },
+        "new-file": {
+            "fontCharacter": "\\18",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "new-folder": {
+            "fontCharacter": "\\19",
+            "fontId": "jetbrains-product-icon-theme"
+        },
     },
 }
