@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.1.1
+
+- Add CI and release workflows
+- Add manifest and product icon theme validation scripts
+- Update readme badges
+
 ## 0.1.0
 
 - Add icons: new-file, new-folder
