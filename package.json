@@ -53,11 +53,20 @@
   ],
   "contributes": {
     "productIconThemes": [
-        {
-            "id": "jetbrains-product-icon-theme",
-            "label": "JetBrains New UI Product Icon Theme",
-            "path": "./producticons/jetbrains-product-icon-theme.json"
-        }
+      {
+        "id": "jetbrains-product-icon-theme",
+        "label": "JetBrains New UI Product Icon Theme",
+        "path": "./producticons/jetbrains-product-icon-theme.json"
+      }
     ]
+  },
+  "scripts": {
+    "validate:manifest": "node scripts/validate-manifest.js",
+    "validate": "node scripts/validate-product-icons.js",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.0.0"
   }
 }
