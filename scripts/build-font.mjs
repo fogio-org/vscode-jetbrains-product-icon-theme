@@ -15,8 +15,8 @@ const FONT_NAME = 'jetbrains-product-icon-theme';
 const ICONS_DIR = path.resolve(__dirname, '..', 'assets', 'icons', 'prepared');
 const OUTPUT_DIR = path.resolve(__dirname, '..', 'producticons');
 
-const FONT_HEIGHT = 1000;
-const DESCENT = 200;
+const FONT_HEIGHT = 1024;
+const DESCENT = 0;
 
 const ICONS = [
     { name: 'explorer-view-icon', codepoint: 0x01, enabled: true },
