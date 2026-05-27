@@ -36,6 +36,12 @@ Check out our compatible extensions
 
 ![Preview](https://raw.githubusercontent.com/fogio-org/vscode-jetbrains-product-icon-theme/refs/heads/master/assets/img/preview.png)
 
+## Icon Comparison
+
+Default VS Code icons vs JetBrains replacements:
+
+![Icon Comparison](https://raw.githubusercontent.com/fogio-org/vscode-jetbrains-product-icon-theme/refs/heads/master/assets/img/comparison.png)
+
 ## Credits
 
 I express my deep gratitude to the JetBrains team for their work. Here are links to open resources used to create this theme:

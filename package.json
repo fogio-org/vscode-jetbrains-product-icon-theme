@@ -3,8 +3,7 @@
   "displayName": "JetBrains New UI Product Icon Theme",
   "description": "JetBrains IDEs New UI inspired product icon theme. Minimize distractions and boost productivity",
   "publisher": "fogio",
-  "version": "0.1.1",
-  "preview": true,
+  "version": "1.0.0",
   "license": "MIT",
   "homepage": "https://github.com/fogio-org/vscode-jetbrains-product-icon-theme",
   "bugs": {
@@ -61,12 +60,20 @@
     ]
   },
   "scripts": {
+    "build": "node scripts/build-font.mjs",
+    "preview": "node scripts/generate-preview.mjs",
     "validate:manifest": "node scripts/validate-manifest.js",
     "validate": "node scripts/validate-product-icons.js",
     "package": "vsce package",
     "publish": "vsce publish"
   },
   "devDependencies": {
-    "@vscode/vsce": "^3.0.0"
+    "@vscode/codicons": "^0.0.45",
+    "@vscode/vsce": "^3.0.0",
+    "sharp": "^0.34.5",
+    "svg-pathdata": "^9.0.0",
+    "svg2ttf": "^6.0.3",
+    "svgicons2svgfont": "^15.0.1",
+    "ttf2woff2": "^6.0.1"
   }
 }

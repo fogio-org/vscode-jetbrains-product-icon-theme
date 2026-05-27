@@ -7,4 +7,6 @@ assets/icons/**
 scripts/**
 node_modules/**
 *.vsix
+*.sfd
 package-lock.json
+CONTRIBUTING.md
