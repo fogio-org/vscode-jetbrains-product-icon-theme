@@ -53,6 +53,18 @@
             "fontCharacter": "\\f",
             "fontId": "jetbrains-product-icon-theme"
         },
+        "split-horizontal": {
+            "fontCharacter": "\\10",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "split-vertical": {
+            "fontCharacter": "\\11",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "git-branch": {
+            "fontCharacter": "\\12",
+            "fontId": "jetbrains-product-icon-theme"
+        },
         "git-commit": {
             "fontCharacter": "\\13",
             "fontId": "jetbrains-product-icon-theme"
