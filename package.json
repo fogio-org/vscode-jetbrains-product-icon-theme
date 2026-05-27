@@ -62,13 +62,16 @@
   },
   "scripts": {
     "build": "node scripts/build-font.mjs",
+    "preview": "node scripts/generate-preview.mjs",
     "validate:manifest": "node scripts/validate-manifest.js",
     "validate": "node scripts/validate-product-icons.js",
     "package": "vsce package",
     "publish": "vsce publish"
   },
   "devDependencies": {
+    "@vscode/codicons": "^0.0.45",
     "@vscode/vsce": "^3.0.0",
+    "sharp": "^0.34.5",
     "svg-pathdata": "^9.0.0",
     "svg2ttf": "^6.0.3",
     "svgicons2svgfont": "^15.0.1",
