@@ -24,7 +24,7 @@ export const ICONS = [
     { name: 'new-folder',         codepoint: 0x19 },
 
     // ─── General UI ─────────────────────────────────────
-    { name: 'close',              codepoint: 0x20 },
+    // { name: 'close',              codepoint: 0x20 },
     { name: 'chevron-down',       codepoint: 0x21 },
     { name: 'chevron-right',      codepoint: 0x22 },
     { name: 'chevron-up',         codepoint: 0x23 },
@@ -32,7 +32,7 @@ export const ICONS = [
     { name: 'expand-all',         codepoint: 0x25 },
     { name: 'trash',              codepoint: 0x26 },
     { name: 'edit',               codepoint: 0x27 },
-    { name: 'add',                codepoint: 0x28 },
+    // { name: 'add',                codepoint: 0x28 },
     { name: 'copy',               codepoint: 0x29 },
     { name: 'history',            codepoint: 0x2A },
     { name: 'cloud-download',     codepoint: 0x2B },

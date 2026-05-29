@@ -93,10 +93,6 @@
             "fontCharacter": "\\19",
             "fontId": "jetbrains-product-icon-theme"
         },
-        "close": {
-            "fontCharacter": "\\20",
-            "fontId": "jetbrains-product-icon-theme"
-        },
         "chevron-down": {
             "fontCharacter": "\\21",
             "fontId": "jetbrains-product-icon-theme"
@@ -123,10 +119,6 @@
         },
         "edit": {
             "fontCharacter": "\\27",
-            "fontId": "jetbrains-product-icon-theme"
-        },
-        "add": {
-            "fontCharacter": "\\28",
             "fontId": "jetbrains-product-icon-theme"
         },
         "copy": {
