@@ -8,42 +8,15 @@ import fs from 'fs';
 import path from 'path';
 import { Readable } from 'stream';
 import { fileURLToPath } from 'url';
+import { FONT_NAME, ICONS, ALIASES } from './icons.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const FONT_NAME = 'jetbrains-product-icon-theme';
 const ICONS_DIR = path.resolve(__dirname, '..', 'assets', 'icons', 'prepared');
 const OUTPUT_DIR = path.resolve(__dirname, '..', 'producticons');
 
 const FONT_HEIGHT = 1024;
 const DESCENT = 0;
-
-const ICONS = [
-    { name: 'explorer-view-icon', codepoint: 0x01, enabled: true },
-    { name: 'extensions',         codepoint: 0x02, enabled: true },
-    { name: 'files',              codepoint: 0x03, enabled: true },
-    { name: 'search',             codepoint: 0x04, enabled: true },
-    { name: 'settings-gear',      codepoint: 0x05, enabled: true },
-    { name: 'terminal',           codepoint: 0x06, enabled: true },
-    { name: 'account',            codepoint: 0x07, enabled: true },
-    { name: 'filter',             codepoint: 0x08, enabled: true },
-    { name: 'git-pull-request',   codepoint: 0x0E, enabled: true },
-    { name: 'remote-explorer',    codepoint: 0x0F, enabled: true },
-    { name: 'split-horizontal',   codepoint: 0x10, enabled: false },
-    { name: 'split-vertical',     codepoint: 0x11, enabled: false },
-    { name: 'git-branch',         codepoint: 0x12, enabled: false },
-    { name: 'git-commit',         codepoint: 0x13, enabled: true },
-    { name: 'git-fetch',          codepoint: 0x14, enabled: true },
-    { name: 'git-compare',        codepoint: 0x15, enabled: true },
-    { name: 'git-merge',          codepoint: 0x16, enabled: true },
-    { name: 'run-view-icon',      codepoint: 0x17, enabled: true },
-    { name: 'new-file',           codepoint: 0x18, enabled: true },
-    { name: 'new-folder',         codepoint: 0x19, enabled: true },
-];
-
-const ALIASES = [
-    { name: 'source-control', target: 'git-commit' },
-];
 
 // ─── Evenodd → Nonzero Winding Conversion ───────────────────────
 
@@ -275,9 +248,8 @@ async function main() {
     const manifestPath = path.join(OUTPUT_DIR, `${FONT_NAME}.json`);
     fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 4) + '\n');
 
-    const enabledCount = icons.filter((i) => i.enabled).length;
     console.log(
-        `\nDone: ${icons.length} glyphs in font, ${enabledCount} enabled in manifest.`
+        `\nDone: ${icons.length} glyphs in font, ${Object.keys(manifest.iconDefinitions).length} in manifest.`
     );
 }
 
@@ -322,7 +294,6 @@ function buildManifest(icons) {
     const iconDefinitions = {};
 
     for (const icon of icons) {
-        if (!icon.enabled) continue;
         iconDefinitions[icon.name] = {
             fontCharacter: `\\${icon.codepoint.toString(16)}`,
             fontId: FONT_NAME,
@@ -331,7 +302,7 @@ function buildManifest(icons) {
 
     for (const alias of ALIASES) {
         const target = icons.find((i) => i.name === alias.target);
-        if (target?.enabled) {
+        if (target) {
             iconDefinitions[alias.name] = {
                 fontCharacter: `\\${target.codepoint.toString(16)}`,
                 fontId: FONT_NAME,

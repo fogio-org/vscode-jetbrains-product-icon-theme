@@ -4,6 +4,7 @@ import sharp from 'sharp';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { ICONS as ALL_ICONS, ALIASES } from './icons.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -11,25 +12,17 @@ const CUSTOM_DIR = path.resolve(__dirname, '..', 'assets', 'icons', 'prepared');
 const CODICON_DIR = path.resolve(__dirname, '..', 'node_modules', '@vscode', 'codicons', 'src', 'icons');
 const OUTPUT_PATH = path.resolve(__dirname, '..', 'assets', 'img', 'comparison.png');
 
-const ICONS = [
-    { name: 'explorer-view-icon', codicon: 'files' },
-    { name: 'extensions',         codicon: 'extensions' },
-    { name: 'files',              codicon: 'files' },
-    { name: 'search',             codicon: 'search' },
-    { name: 'settings-gear',      codicon: 'settings-gear' },
-    { name: 'terminal',           codicon: 'terminal' },
-    { name: 'account',            codicon: 'account' },
-    { name: 'filter',             codicon: 'filter' },
-    { name: 'git-pull-request',   codicon: 'git-pull-request' },
-    { name: 'remote-explorer',    codicon: 'remote-explorer' },
-    { name: 'source-control',     codicon: 'source-control' },
-    { name: 'git-commit',         codicon: 'git-commit' },
-    { name: 'git-fetch',          codicon: 'git-fetch' },
-    { name: 'git-compare',        codicon: 'git-compare' },
-    { name: 'git-merge',          codicon: 'git-merge' },
-    { name: 'run-view-icon',      codicon: 'debug-alt' },
-    { name: 'new-file',           codicon: 'new-file' },
-    { name: 'new-folder',         codicon: 'new-folder' },
+const PREVIEW_ICONS = [
+    ...ALL_ICONS.map((i) => ({
+        name: i.name,
+        codicon: i.codicon || i.name,
+        customSvg: i.name,
+    })),
+    ...ALIASES.map((a) => ({
+        name: a.name,
+        codicon: a.name,
+        customSvg: a.target,
+    })),
 ];
 
 const SCALE = 2;
@@ -72,7 +65,7 @@ async function renderIcon(svgFilePath, fill, opacity = 1) {
 }
 
 async function main() {
-    const rows = Math.ceil(ICONS.length / COLS);
+    const rows = Math.ceil(PREVIEW_ICONS.length / COLS);
     const gridW = COLS * CELL_W + (COLS - 1) * GAP;
     const width = gridW + PAD * 2;
     const height = HEADER_H + rows * (CELL_H + GAP) + PAD * 2;
@@ -92,8 +85,8 @@ async function main() {
 
     const composites = [];
 
-    for (let i = 0; i < ICONS.length; i++) {
-        const icon = ICONS[i];
+    for (let i = 0; i < PREVIEW_ICONS.length; i++) {
+        const icon = PREVIEW_ICONS[i];
         const col = i % COLS;
         const row = Math.floor(i / COLS);
         const cellX = PAD + col * (CELL_W + GAP);
@@ -123,8 +116,7 @@ async function main() {
             });
         }
 
-        const customName = icon.name === 'source-control' ? 'git-commit' : icon.name;
-        const customFile = path.join(CUSTOM_DIR, `${customName}.svg`);
+        const customFile = path.join(CUSTOM_DIR, `${icon.customSvg}.svg`);
         const customBuf = await renderIcon(customFile, '#cccccc');
         if (customBuf) {
             const iconX = cellX + CELL_W - ICON_SLOT - 10;
