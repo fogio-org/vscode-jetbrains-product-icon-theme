@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2000-2025 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license. -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   fill="none"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="symbol-constructor.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="18.813648"
+     inkscape:cx="21.526926"
+     inkscape:cy="6.059431"
+     inkscape:window-width="1710"
+     inkscape:window-height="957"
+     inkscape:window-x="0"
+     inkscape:window-y="34"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M12 8L13.1125 10.8123L16 11.0557L13.8 13.0372L14.4721 16L12 14.4123L9.52786 16L10.2 13.0372L8 11.0557L10.8875 10.8123L12 8Z"
+     fill="#6C707E"
+     id="path1"
+     style="fill:#000000;fill-opacity:1" />
+  <path
+     d="M8 14C8.33164 14 8.65699 13.9731 8.974 13.9213L8.73801 14.9616C8.49548 14.987 8.24926 15 8 15C4.13401 15 1 11.866 1 8C1 4.13401 4.13401 1 8 1C11.866 1 15 4.13401 15 8C15 8.67483 14.9045 9.32736 14.7263 9.94482L13.8143 9.86794L13.7524 9.71147C13.9135 9.16912 14 8.59466 14 8C14 4.68629 11.3137 2 8 2C4.68629 2 2 4.68629 2 8C2 11.3137 4.68629 14 8 14Z"
+     fill="#DB3B4B"
+     id="path3"
+     style="fill:#000000;fill-opacity:1" />
+  <path
+     d="M8.29593 6.31537C8.636 5.6473 9.25361 5.24573 10.0657 5.24573C11.1061 5.24573 11.8459 5.91981 11.9786 7.00023C11.5769 7.00875 11.2184 7.25726 11.0701 7.63217L11.0013 7.80602V7.43758C11.0013 6.61761 10.5756 6.10775 9.82392 6.10775C9.01971 6.10775 8.49409 6.68068 8.49409 7.59001V10.0105L7.91598 10.0593C7.76872 10.0717 7.62941 10.1161 7.50591 10.1863V7.43758C7.50591 6.61761 7.0749 6.10775 6.32852 6.10775C5.5138 6.10775 4.99869 6.68068 4.99869 7.59001V10.7543H4V5.37188H4.96189V6.24862C5.28147 5.60946 5.84915 5.24573 6.6071 5.24573C7.40552 5.24573 8.00368 5.64257 8.29593 6.31537Z"
+     fill="#DB3B4B"
+     id="path4"
+     style="fill:#000000;fill-opacity:1" />
+</svg>

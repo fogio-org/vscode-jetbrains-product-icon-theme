@@ -121,6 +121,10 @@
             "fontCharacter": "\\27",
             "fontId": "jetbrains-product-icon-theme"
         },
+        "add": {
+            "fontCharacter": "\\28",
+            "fontId": "jetbrains-product-icon-theme"
+        },
         "copy": {
             "fontCharacter": "\\29",
             "fontId": "jetbrains-product-icon-theme"
@@ -237,10 +241,6 @@
             "fontCharacter": "\\61",
             "fontId": "jetbrains-product-icon-theme"
         },
-        "warning": {
-            "fontCharacter": "\\62",
-            "fontId": "jetbrains-product-icon-theme"
-        },
         "server-process": {
             "fontCharacter": "\\63",
             "fontId": "jetbrains-product-icon-theme"
@@ -249,8 +249,204 @@
             "fontCharacter": "\\64",
             "fontId": "jetbrains-product-icon-theme"
         },
+        "beaker": {
+            "fontCharacter": "\\70",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "comments-view-icon": {
+            "fontCharacter": "\\71",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "timeline-view-icon": {
+            "fontCharacter": "\\72",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "outline-view-icon": {
+            "fontCharacter": "\\73",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "pin": {
+            "fontCharacter": "\\80",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "go-to-file": {
+            "fontCharacter": "\\81",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "arrow-left": {
+            "fontCharacter": "\\84",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "arrow-right": {
+            "fontCharacter": "\\85",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "sync": {
+            "fontCharacter": "\\92",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "check": {
+            "fontCharacter": "\\93",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "lightbulb": {
+            "fontCharacter": "\\95",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "lightbulb-autofix": {
+            "fontCharacter": "\\96",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "sparkle": {
+            "fontCharacter": "\\97",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "testing-run-icon": {
+            "fontCharacter": "\\a0",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "testing-debug-icon": {
+            "fontCharacter": "\\a1",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "testing-failed-icon": {
+            "fontCharacter": "\\a3",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "testing-error-icon": {
+            "fontCharacter": "\\a4",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "testing-skipped-icon": {
+            "fontCharacter": "\\a5",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "debug-breakpoint": {
+            "fontCharacter": "\\b0",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "debug-breakpoint-disabled": {
+            "fontCharacter": "\\b1",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "debug-breakpoint-conditional": {
+            "fontCharacter": "\\b2",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "debug-stackframe": {
+            "fontCharacter": "\\b4",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "symbol-class": {
+            "fontCharacter": "\\c0",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "symbol-method": {
+            "fontCharacter": "\\c1",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "symbol-function": {
+            "fontCharacter": "\\c2",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "symbol-interface": {
+            "fontCharacter": "\\c3",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "symbol-variable": {
+            "fontCharacter": "\\c4",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "symbol-field": {
+            "fontCharacter": "\\c5",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "symbol-enum": {
+            "fontCharacter": "\\c6",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "symbol-property": {
+            "fontCharacter": "\\c7",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "symbol-constant": {
+            "fontCharacter": "\\c8",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "symbol-constructor": {
+            "fontCharacter": "\\c9",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "symbol-parameter": {
+            "fontCharacter": "\\ca",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "file": {
+            "fontCharacter": "\\d0",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "folder": {
+            "fontCharacter": "\\d1",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "folder-opened": {
+            "fontCharacter": "\\d2",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "diff-insert": {
+            "fontCharacter": "\\d3",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "diff-remove": {
+            "fontCharacter": "\\d4",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "diff-renamed": {
+            "fontCharacter": "\\d5",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "lock": {
+            "fontCharacter": "\\e0",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "unlock": {
+            "fontCharacter": "\\e1",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "link-external": {
+            "fontCharacter": "\\e2",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "star-full": {
+            "fontCharacter": "\\e3",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "star-empty": {
+            "fontCharacter": "\\e4",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "home": {
+            "fontCharacter": "\\e5",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "shield": {
+            "fontCharacter": "\\e6",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "cloud-upload": {
+            "fontCharacter": "\\e8",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "wrench": {
+            "fontCharacter": "\\ea",
+            "fontId": "jetbrains-product-icon-theme"
+        },
         "source-control": {
             "fontCharacter": "\\13",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "pinned": {
+            "fontCharacter": "\\80",
             "fontId": "jetbrains-product-icon-theme"
         }
     }

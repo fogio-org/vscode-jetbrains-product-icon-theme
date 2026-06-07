@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2000-2023 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license. -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   fill="none"
+   version="1.1"
+   id="svg3"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M10.8535 4.6463C11.0488 4.84156 11.0488 5.15814 10.8536 5.35341C10.6583 5.54868 10.3417 5.54868 10.1465 5.35343L8.49972 3.70677L8.49972 10.5142C8.49972 10.7903 8.27586 11.0142 7.99972 11.0142C7.72358 11.0142 7.49972 10.7903 7.49972 10.5142L7.49972 3.70729L5.85343 5.35356C5.65816 5.54882 5.34158 5.54881 5.14632 5.35355C4.95106 5.15829 4.95106 4.8417 5.14633 4.64644L7.64642 2.1464C7.84167 1.95114 8.15825 1.95114 8.35351 2.14639L10.8535 4.6463Z"
+     fill="#6C707E"
+     id="path1"
+     style="fill:#000000;fill-opacity:1" />
+  <path
+     id="rect1"
+     transform="matrix(1 0 0 -1 2 14)"
+     style="fill:#000000;fill-opacity:1"
+     d="m 0.5,0 h 11 C 11.777,0 12,0.223 12,0.5 12,0.777 11.777,1 11.5,1 H 0.5 C 0.223,1 0,0.777 0,0.5 0,0.223 0.223,0 0.5,0 Z" />
+  <path
+     id="rect2"
+     style="fill:#000000;fill-opacity:1"
+     d="M 2.5,10 C 2.777,10 3,10.223 3,10.5 v 3 C 3,13.777 2.777,14 2.5,14 2.223,14 2,13.777 2,13.5 v -3 C 2,10.223 2.223,10 2.5,10 Z" />
+  <path
+     id="rect3"
+     style="fill:#000000;fill-opacity:1"
+     d="m 13.5,10 c 0.277,0 0.5,0.223 0.5,0.5 v 3 C 14,13.777 13.777,14 13.5,14 13.223,14 13,13.777 13,13.5 v -3 C 13,10.223 13.223,10 13.5,10 Z" />
+</svg>

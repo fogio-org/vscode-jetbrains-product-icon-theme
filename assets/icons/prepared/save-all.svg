@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2000-2022 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license. -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="save-all.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="10.171103"
+     inkscape:cx="8.1603732"
+     inkscape:cy="6.0957005"
+     inkscape:window-width="1710"
+     inkscape:window-height="957"
+     inkscape:window-x="0"
+     inkscape:window-y="34"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#000000;stroke-linejoin:round;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1;fill-opacity:1"
+     d="M 2.5,2 A 0.50005,0.50005 0 0 0 2,2.5 v 11 A 0.50005,0.50005 0 0 0 2.5,14 h 11 A 0.50005,0.50005 0 0 0 14,13.5 v -9 A 0.50005,0.50005 0 0 0 13.853516,4.1464844 l -2,-2 A 0.50005,0.50005 0 0 0 11.5,2 Z M 3,3 H 5 V 5.5 A 0.50005,0.50005 0 0 0 5.5,6 h 5 A 0.50005,0.50005 0 0 0 11,5.5 V 3 h 0.292969 L 13,4.7070312 V 13 H 12 V 9.5 A 0.50005,0.50005 0 0 0 11.5,9 h -7 A 0.50005,0.50005 0 0 0 4,9.5 V 13 H 3 Z m 3,0 h 4 V 5 H 6 Z m -1,7 h 6 v 3 H 5 Z"
+     id="path1" />
+</svg>
