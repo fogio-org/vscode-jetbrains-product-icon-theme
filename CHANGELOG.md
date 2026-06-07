@@ -1,5 +1,21 @@
 # Change Log
 
+## 1.2.0
+
+- Add 47 new product icons from JetBrains New UI (intellij-community `expui/`):
+  - Activity Bar: comments-view, timeline-view, outline-view
+  - Editor actions: pin/pinned, go-to-file, arrow-left/right
+  - Status bar & code actions: sync, check, lightbulb, lightbulb-autofix, sparkle
+  - Testing: testing-run, testing-debug, testing-failed, testing-error, testing-skipped
+  - Breakpoints: debug-breakpoint, debug-breakpoint-disabled, debug-breakpoint-conditional, debug-stackframe
+  - Symbols (breadcrumbs/outline): class, method, function, interface, variable, field, enum, property, constant, constructor, parameter
+  - File & diff: folder-opened, diff-insert, diff-remove, diff-renamed
+  - Misc: lock, unlock, link-external, star-full, star-empty, home, shield, cloud-upload, wrench
+- Add icon preprocessing pipeline (`scripts/preprocess-icons.mjs`): converts JetBrains expui SVGs (colored, stroked, circles) to monochrome 16×16 filled paths
+- Original JetBrains icons saved in `assets/icons/original/` for reference
+- Temporarily disable close, warning while custom versions are prepared
+- Total: 110 product icon definitions (108 glyphs + 2 aliases)
+
 ## 1.1.0
 
 - Add 41 new product icons from JetBrains New UI:

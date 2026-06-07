@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2000-2022 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license. -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <path
+     style="baseline-shift:baseline;display:inline;overflow:visible;vector-effect:none;fill:#000000;stroke-linecap:round;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1;fill-opacity:1"
+     d="M 5.5,3 A 0.5,0.5 0 0 0 5.1464844,3.1464844 l -4,4 A 0.5,0.5 0 0 0 1,7.5 0.5,0.5 0 0 0 1.1464844,7.8535156 l 4,4.0000004 a 0.5,0.5 0 0 0 0.7070312,0 0.5,0.5 0 0 0 0,-0.707032 L 2.7070313,8 H 13.292969 l -3.146485,3.146484 a 0.5,0.5 0 0 0 0,0.707032 0.5,0.5 0 0 0 0.707032,0 l 4,-4.0000004 A 0.5,0.5 0 0 0 15,7.5 0.5,0.5 0 0 0 14.853516,7.1464844 l -4,-4 a 0.5,0.5 0 0 0 -0.707032,0 0.5,0.5 0 0 0 0,0.7070312 L 13.292969,7 H 2.7070313 L 5.8535156,3.8535156 a 0.5,0.5 0 0 0 0,-0.7070312 A 0.5,0.5 0 0 0 5.5,3 Z"
+     id="path1" />
+</svg>
