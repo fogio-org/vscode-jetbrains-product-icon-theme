@@ -83,7 +83,7 @@ export const ICONS = [
 
     // ─── Editor Actions ─────────────────────────────────
     { name: 'pin',                codepoint: 0x80 },
-    { name: 'go-to-file',         codepoint: 0x81 },
+    // { name: 'go-to-file',         codepoint: 0x81 },
     // { name: 'save',               codepoint: 0x82 },
     // { name: 'save-all',           codepoint: 0x83 },
     { name: 'arrow-left',         codepoint: 0x84 },
@@ -92,7 +92,7 @@ export const ICONS = [
     // ─── Status Bar & Code Actions ──────────────────────
     // { name: 'error',              codepoint: 0x90 },
     // { name: 'info',               codepoint: 0x91 },
-    { name: 'sync',               codepoint: 0x92 },
+    // { name: 'sync',               codepoint: 0x92 },
     { name: 'check',              codepoint: 0x93 },
     // { name: 'radio-tower',        codepoint: 0x94 },
     { name: 'lightbulb',          codepoint: 0x95 },
@@ -149,10 +149,12 @@ export const ICONS = [
     { name: 'cloud-upload',       codepoint: 0xE8 },
     // { name: 'tag',                codepoint: 0xE9 },
     { name: 'wrench',             codepoint: 0xEA, codicon: 'tools' },
+    // { name: 'discard',            codepoint: 0xEB },
 ];
 
 export const ALIASES = [
     { name: 'source-control',  target: 'git-commit' },
     { name: 'pinned',          target: 'pin' },
+    { name: 'sync',           target: 'refresh' },
     // { name: 'check-all',       target: 'check' },
 ];

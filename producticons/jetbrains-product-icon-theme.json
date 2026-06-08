@@ -269,20 +269,12 @@
             "fontCharacter": "\\80",
             "fontId": "jetbrains-product-icon-theme"
         },
-        "go-to-file": {
-            "fontCharacter": "\\81",
-            "fontId": "jetbrains-product-icon-theme"
-        },
         "arrow-left": {
             "fontCharacter": "\\84",
             "fontId": "jetbrains-product-icon-theme"
         },
         "arrow-right": {
             "fontCharacter": "\\85",
-            "fontId": "jetbrains-product-icon-theme"
-        },
-        "sync": {
-            "fontCharacter": "\\92",
             "fontId": "jetbrains-product-icon-theme"
         },
         "check": {
@@ -447,6 +439,10 @@
         },
         "pinned": {
             "fontCharacter": "\\80",
+            "fontId": "jetbrains-product-icon-theme"
+        },
+        "sync": {
+            "fontCharacter": "\\2d",
             "fontId": "jetbrains-product-icon-theme"
         }
     }
