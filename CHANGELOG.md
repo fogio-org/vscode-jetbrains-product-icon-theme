@@ -1,5 +1,13 @@
 # Change Log
 
+## 1.2.1
+
+- Add `discard` icon (undo) from JetBrains `expui/`
+- Add `sync` → `refresh` alias (sync reuses refresh glyph)
+- Rework `save-all`, `wrench`, `diff-renamed`, `debug-breakpoint-conditional` SVGs in Inkscape for proper stroke-to-fill conversion
+- Temporarily disable `go-to-file`, `sync` (standalone) while icons are refined
+- Total: 111 product icon definitions (108 glyphs + 3 aliases)
+
 ## 1.2.0
 
 - Add 47 new product icons from JetBrains New UI (intellij-community `expui/`):
